@@ -1,0 +1,71 @@
+*{
+    /*Define a largura e altura de um elemento*/
+    box-sizing: border-box;
+}
+body {
+    /*Cor do fundo do elemento*/
+    background-color: lightblue;
+}
+h1{
+    /*Cor do texto*/
+    color: blue;
+    /*Alinhamento do Texto*/
+    text-align: center;
+}
+p{
+    color: rgb(43, 41, 41);
+    text-align: center;
+}
+input{
+    /*Largura do elemento*/
+    width: 250px;
+    /*Espaçamento interno do elemento*/
+    padding: 10px;
+    /*Arredondamento nos cantos do elemento*/
+    border-radius: 8px;
+    /*Define a espessura das bordas do elemento*/
+    border: 1px solid gray;
+}
+button{
+    background-color: blue;
+    color: whitesmoke;
+    padding: 10px;
+    border-radius: 8px;
+    /*Altera o cursor do mouse*/
+    cursor: pointer;
+    /*Mudança suave de cor*/
+    transition: background-color 0.3s;
+    /*Adiciona sombra ao elemento*/
+    box-shadow: 0 4px 8px gray;
+}
+button:hover{
+    background-color: darkblue;
+}
+form{
+    /*Ativa o modelo FlexBox*/
+    display: flex;
+    /*Define a direção dos elementos*/
+    flex-direction: column;
+    /*Alinha os elementos nos eixos*/
+    align-items: center;
+    /*Distribuição de espaçamento livre*/
+    justify-content: center;
+    /*Espaçamentos interno dos elemento*/
+    gap: 15px;
+}
+form div{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+.card{
+    background-color: white;
+    padding: 25px;
+    border-radius: 12px;
+    box-shadow: 0 4px 8px gray;
+    width: 100%;
+    /*Estabelece a largura maxima*/
+    max-width: 350px;
+    /*Espaçamento externo do elemento*/
+    margin: 0 auto;
+}

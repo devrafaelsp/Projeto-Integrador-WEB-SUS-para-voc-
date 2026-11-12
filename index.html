@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+<!--Coneceta o CSS ao HTML-->
+    <link rel="stylesheet" href="style.css">
+
+<!--Coneceta o JavaScript ao HTML-->
+    <script src="script.js" defer></script>
+    <title>SUS PARA VOCÊ</title>
+</head>
+<body>
+    <h1>SUS PARA VOCÊ</h1>
+    <p>Busque as unidades do SUS mais próximas de você!</p>
+
+    <!--Formulário do site-->
+    <form class="card" id="formulario" autocomplete="off">
+
+        <!--Agrupamento de elementos-->
+        <div>
+
+            <!--Identifica um campo no formulário-->
+            <label for="cep">CEP</label>
+            <input type="text" placeholder="00000-000" name="cep" id="cep">
+        </div>
+        <div>
+            <label for="numero">Número</label>
+            <input type="text" placeholder="Nº 123" name="numero" id="numero">
+        </div>
+        <button type="submit">Buscar</button>
+    </form>
+
+    <!--Identificador de elemento-->
+    <p id="mensagem"></p>
+</body>
+</html>
